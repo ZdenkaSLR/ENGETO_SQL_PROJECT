@@ -46,12 +46,9 @@ Jako dodateèný materiál pøipravuji i tabulku s HDP, GINI koeficientem a populací
 
 Tvorbu primární tabulky jsem rozdìlila na 2 kroky:
 - Nejdøíve jsem si vytvoøila 2 tabulky t_zdenka_sailerova_primarni_food, která obsahuje informace o cenách potravin z tabulky czechia_price a t_zdenka_sailerova_primarni_wage, která obsahuje informace o prùmìrných mzdách z tabulky czechia_payroll. 
-
-Tyto jednotlivé tabulky _primarni_food a _primarni_wage obsahují i data z dalších k nim náležejících tabulek - èíselníkù. 
-
-Ceny (food_price) uvedené v tabulce _primarni_food jsou zprùmìrované ceny dané potraviny za rok napøíè kraji ÈR.
-
-Platy (industry_wage) uvedené v tabulce _primarni_wage jsou zprùmìrované platy pro daný rok v daném odvìtví. V této tabulce omezuji data pouze na ty, která jsou oznaèená kódem 5958, tj. prùmìrná hrubá mzda na zamìstnance
+- Tyto jednotlivé tabulky _primarni_food a _primarni_wage obsahují i data z dalších k nim náležejících tabulek - èíselníkù. 
+- Ceny (food_price) uvedené v tabulce _primarni_food jsou zprùmìrované ceny dané potraviny za rok napøíè kraji ÈR.
+- Platy (industry_wage) uvedené v tabulce _primarni_wage jsou zprùmìrované platy pro daný rok v daném odvìtví. V této tabulce omezuji data pouze na ty, která jsou oznaèená kódem 5958, tj. prùmìrná hrubá mzda na zamìstnance
 
 - Následnì tyto dvì spojuji do tabulky t_zdenka_sailerova_primarni. Tabulky propojuji pomocí INNER JOIN viz script pøes spoleèné sloupce. Tabulky omezuji rozsahem let 2006–2018, který je spoleèný pro obì tabulky. 
 
