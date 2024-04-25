@@ -62,8 +62,7 @@ Tvorbu primární tabulky jsem rozdìlila na 2 kroky:
 ## VÝSLEDKY
 
 
-### Otázka 1: 
-Rostou v prùbìhu let mzdy ve všech odvìtvích, nebo v nìkterých klesají?
+### Otázka 1: Rostou v prùbìhu let mzdy ve všech odvìtvích, nebo v nìkterých klesají?
 
 **Postup:**
 - Tabulky spojuji pomocí JOIN primární tabulky na primární tabulku posunutou o jeden rok, aby bylo možné porovnávat meziroèní zmìny.
@@ -76,8 +75,7 @@ Rostou v prùbìhu let mzdy ve všech odvìtvích, nebo v nìkterých klesají?
 
 
 
-### Otázka 2: 
-Kolik je možné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+### Otázka 2: Kolik je možné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 
 **Postup:**
 - Prùmìrnou cenu potravin v letech 2006 a 2018 porovnávám s mìsíèní mzdou, která je zprùmìrovaná napøíè odvìtvími ve sledovaném roce. 
@@ -91,8 +89,7 @@ Kolik je možné si koupit litrù mléka a kilogramù chleba za první a poslední srov
 
 
 
-### Otázka 3: 
-Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroèní nárùst)?
+### Otázka 3: Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroèní nárùst)?
 
 **Postup:**
 - Porovnávám zmìny prùmìrných cen potravin v daném a následujícím roce, obdobnì jako v otázce 1. 
@@ -106,8 +103,7 @@ Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální mez
 
 
 
-### Otázka 4: 
-Existuje rok, ve kterém byl meziroèní nárùst cen potravin výraznì vyšší než rùst mezd (vìtší než 10 %)?
+### Otázka 4: Existuje rok, ve kterém byl meziroèní nárùst cen potravin výraznì vyšší než rùst mezd (vìtší než 10 %)?
 
 **Postup:**
 - Porovnávám zmìny prùmìrných cen potravin v daném a následujícím roce, obdobnì jako v otázce 1 a 3. 
@@ -120,8 +116,7 @@ Existuje rok, ve kterém byl meziroèní nárùst cen potravin výraznì vyšší než rùst
 
 
 
-### Otázka 5:
-Má výška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce výraznìjším rùstem?
+### Otázka 5: Má výška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce výraznìjším rùstem?
 
 **Postup:**
 - V prvním kroku spojuji primární a sekundární tabulku pøes spoleènou hodnotu - rok. Ceny potravin a platy jsou zprùmìrované za daný rok. K tìmto informacím je ještì pøidaná hodnota HDP (GDP) ze sekundární tabulky. 
