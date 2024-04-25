@@ -67,50 +67,42 @@ Období omezuji na roky 2006-2018, tak, aby se shodovalo s obdobím v primární tab
 ### Otázka 1: 
 Rostou v prùbìhu let mzdy ve všech odvìtvích, nebo v nìkterých klesají?
 
-**- Postup:**
+**Postup:**
+- Tabulky spojuji pomocí JOIN primární tabulky na primární tabulku posunutou o jeden rok, aby bylo možné porovnávat meziroèní zmìny.
+- Flag v posledním sloupci oznaèuje pøípady, kdy došlo k meziroènímu poklesu mezd. 
 
-Tabulky spojuji pomocí JOIN primární tabulky na primární tabulku posunutou o jeden rok, aby bylo možné porovnávat meziroèní zmìny.
+**Odpovìï:**
 
-Flag v posledním sloupci oznaèuje pøípady, kdy došlo k meziroènímu poklesu mezd. 
-
-**- Odpovìï:**
-
-Ve sledovaném období let 2006–2018 došlo ve 23 pøípadech k meziroènímu poklesu mzdy v daném odvìtví. 
-
-Nejvíce tomu bylo roku 2012 (u 11 odvìtví), naopak nárùst byl zaznamenán ve srovnání s následujícím rokem v letech 2006, 2007, 2011, 2016, 2017. 
-
-V odvìtví Tìžba a dobývání došlo ve sledovaném období k meziroènímu poklesu mzdy dokonce 4x.
+- Ve sledovaném období let 2006–2018 došlo ve 23 pøípadech k meziroènímu poklesu mzdy v daném odvìtví. 
+- Nejvíce tomu bylo roku 2012 (u 11 odvìtví), naopak nárùst byl zaznamenán ve srovnání s následujícím rokem v letech 2006, 2007, 2011, 2016, 2017. 
+- V odvìtví Tìžba a dobývání došlo ve sledovaném období k meziroènímu poklesu mzdy dokonce 4x.
 
 
 ### Otázka 2: 
 Kolik je možné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 
-**- Postup:**
+**Postup:**
+- Prùmìrnou cenu potravin v letech 2006 a 2018 porovnávám s mìsíèní mzdou, která je zprùmìrovaná napøíè odvìtvími ve sledovaném roce. 
+- Prùmìrná mzda napøíè odvìtvími v roce 2006 byla 20 754 Kè/mìs. V roce 2018 prùmìrná mzda byla 32 536 Kè/mìs. 
+- Cena v roce 2006 za Chléb konzumní kmínový byla 16,12 Kè/kg. V roce 2018 stál chléb 24,24 Kè/kg.
+- Cena v roce 2006 za Mléko polotuèné pasterované byla 14,44 Kè/l. V roce 2018 stálo mléko 19,82 Kè/l. 
 
-Prùmìrnou cenu potravin v letech 2006 a 2018 porovnávám s mìsíèní mzdou, která je zprùmìrovaná napøíè odvìtvími ve sledovaném roce. 
+**Odpovìï:**
 
-Prùmìrná mzda napøíè odvìtvími v roce 2006 byla 20 754 Kè/mìs. V roce 2018 prùmìrná mzda byla 32 536 Kè/mìs. 
-
-Cena v roce 2006 za Chléb konzumní kmínový byla 16,12 Kè/kg. V roce 2018 stál chléb 24,24 Kè/kg.
-
-Cena v roce 2006 za Mléko polotuèné pasterované byla 14,44 Kè/l. V roce 2018 stálo mléko 19,82 Kè/l. 
-
-**- Odpovìï:**
-
-V roce 2006 bylo možné z prùmìrné mìsíèní mzdy koupit 1 287 kg chleba konzumního kmínového nebo 1 437 l mléka polotuèného pasterovaného.\n
+V roce 2006 bylo možné z prùmìrné mìsíèní mzdy koupit 1 287 kg chleba konzumního kmínového nebo 1 437 l mléka polotuèného pasterovaného.
 V roce 2018 bylo možné z prùmìrné mìsíèní mzdy koupit 1 342 kg chleba konzumního kmínového nebo 1 641 l mléka polotuèného pasterovaného.
 
 
 ### Otázka 3: 
 Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroèní nárùst)?
 
-**- Postup:**
+**Postup:**
 
 Porovnávám zmìny prùmìrných cen potravin v daném a následujícím roce, obdobnì jako v otázce 1. 
 
 Tabulky spojuji pomocí JOIN primární tabulky na primární tabulku posunutou o jeden rok, aby bylo možné porovnávat meziroèní zmìny
 
-**- Odpovìï:**
+**Odpovìï:**
 
 V porovnání se objevily 2 kategorie, které v rozmezí let 2006–2018 nezdražují, ale dokonce zlevòují. 
 
@@ -123,7 +115,7 @@ Naproti tomu nejvyšší nárùst byl zaznamenán u Papriky, kdy prùmìrný procentuální
 ### Otázka 4: 
 Existuje rok, ve kterém byl meziroèní nárùst cen potravin výraznì vyšší než rùst mezd (vìtší než 10 %)?
 
-**- Postup:**
+**Postup:**
 
 Porovnávám zmìny prùmìrných cen potravin v daném a následujícím roce, obdobnì jako v otázce 1 a 3. 
 
@@ -131,7 +123,7 @@ Tabulky spojuji pomocí JOIN primární tabulky na primární tabulku posunutou o jed
 
 V dalším kroku vybírám relevantní sloupce, prùmìruji hodnoty za období let 2006-2018 a vkládám do vnoøeného selectu.
 
-**- Odpovìï:** 
+**Odpovìï:** 
 
 V nìkolika letech byl zaznamenán meziroèní prùmìrný nárùst cen potravin vyšší, než meziroèní prùmìrný nárùst mezd - dva nejvyšší byly v letech 2012 a 2011.
 
@@ -141,7 +133,7 @@ Nicménì meziroèní nárùst cen potravin výraznì vyšší než rùst mezd (vyšší než 10 
 ### Otázka 5:
 Má výška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce výraznìjším rùstem?
 
-**- Postup:**
+**Postup:**
 
 V prvním kroku spojuji primární a sekundární tabulku pøes spoleènou hodnotu - rok. Ceny potravin a platy jsou zprùmìrované za daný rok. K tìmto informacím je ještì pøidaná hodnota HDP (GDP) ze sekundární tabulky. 
 
@@ -149,7 +141,7 @@ V dalším kroku napojuji na sebe stejné tabulky posunuté o rok, èímž získávám i m
 
 V posledním kroku filtruji požadované hodnoty. 
 
-**- Odpovìï:**
+**Odpovìï:**
 
 V zadání není specifikováno, co je chápano jako výraznìjší nárùst HDP. Pro tento pøípad si hranici stanovím na nárùst 5 % nebo vyšší. 
 
