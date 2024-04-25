@@ -97,8 +97,7 @@ Cena v roce 2006 za Mléko polotuèné pasterované byla 14,44 Kè/l. V roce 2018 stá
 
 **- Odpovìï:**
 
-V roce 2006 bylo možné z prùmìrné mìsíèní mzdy koupit 1 287 kg chleba konzumního kmínového nebo 1 437 l mléka polotuèného pasterovaného.
-
+V roce 2006 bylo možné z prùmìrné mìsíèní mzdy koupit 1 287 kg chleba konzumního kmínového nebo 1 437 l mléka polotuèného pasterovaného.\n
 V roce 2018 bylo možné z prùmìrné mìsíèní mzdy koupit 1 342 kg chleba konzumního kmínového nebo 1 641 l mléka polotuèného pasterovaného.
 
 
