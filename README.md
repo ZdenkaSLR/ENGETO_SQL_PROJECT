@@ -1,4 +1,5 @@
 # SQL PROJEKT KE KURZU DATOVÁ AKADEMIE (6. 12. 2023)
+Zdeòka Sailerová | Discord zdenka_26904
 
 
 ## ZADÁNÍ

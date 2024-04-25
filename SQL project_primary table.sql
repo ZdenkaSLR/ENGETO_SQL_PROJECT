@@ -1,4 +1,5 @@
 -- Skripty k SQL projektu 1/7, Datová akademie 6. 12. 2023 
+-- Zdeňka Sailerová | Discord zdenka_26904
 
 -- Postup pro vytvoření primární tabulky:
 --  Tvorbu primární tabulky jsem rozdělila na 2 kroky, _primarni_food, která obsahuje informace o cenách potravin a _primarni_wage, která obsahuje informace o průměrných mzdách. Následně tyto dvě spojuji do tabulky _primarni.

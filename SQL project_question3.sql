@@ -1,4 +1,5 @@
 -- Skripty k SQL projektu 5/7, Datová akademie 6. 12. 2023 
+-- Zdeňka Sailerová | Discord zdenka_26904
 
 -- Výzkumná otázka 3: Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
 

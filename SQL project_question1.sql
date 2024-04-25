@@ -1,4 +1,5 @@
--- Skripty k SQL projektu 3/7, Datová akademie 6. 12. 2023 
+-- Skripty k SQL projektu 3/7, Datová akademie 6. 12. 2023
+-- Zdeňka Sailerová | Discord zdenka_26904 
 
 -- Výzkumná otázka 1: Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 

@@ -1,4 +1,5 @@
 -- Skripty k SQL projektu 2/7, Datová akademie 6. 12. 2023 
+-- Zdeňka Sailerová | Discord zdenka_26904
 
 -- Zadání: Jako dodatečný materiál připravte i tabulku s HDP, GINI koeficientem a populací dalších evropských států ve stejném období, jako primární přehled pro ČR.
 
